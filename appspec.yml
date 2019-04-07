@@ -6,6 +6,6 @@ files:
     source: /gameoflife-web/target/
 hooks:
   BeforeInstall:
-    - location: Scripts/stop.sh
+    - location: stop.sh
   AfterInstall:
-    - location: Scripts/start.sh
+    - location: start.sh
