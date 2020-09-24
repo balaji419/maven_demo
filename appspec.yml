@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - 
-    destination: /var/lib/tomcat/webapps
+    destination: /var/lib/tomcat/webapps 
     source: /gameoflife-web/target/
 hooks:
   BeforeInstall:
